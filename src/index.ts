@@ -13,7 +13,7 @@ import { stream } from 'hono/streaming'
 // This ensures that the API key is provided via environment variables rather than assumed.
 const openAIClient = createOpenAI({
     apiKey: process.env.OPENAI_API_KEY,
-    baseURL: process.env.BASE_URL
+    baseURL: process.env.OPENAI_BASE_URL
 })
 
 const app = new Hono()
