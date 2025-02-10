@@ -5,7 +5,7 @@ import { Hono } from 'hono'
 import { serve } from '@hono/node-server'
 import { zValidator } from '@hono/zod-validator'
 import { streamText } from 'ai'
-import {createOpenAI, openai} from '@ai-sdk/openai'
+import { createOpenAI } from '@ai-sdk/openai'
 import { z } from 'zod'
 import { stream } from 'hono/streaming'
 
