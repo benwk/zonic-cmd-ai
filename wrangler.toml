@@ -1,0 +1,21 @@
+name = "zonic-cmd-ai"
+main = "src/worker.ts"
+compatibility_date = "2024-09-23"
+# Add your Cloudflare account_id here
+# account_id = "your_account_id_here"
+
+# Enable Node.js compatibility
+compatibility_flags = [
+    "nodejs_compat"
+]
+
+# Route to your domain
+# routes = [
+#   { pattern = "api.yourwebsite.com", custom_domain = true }
+# ]
+
+# For local development, Wrangler uses .dev.vars for environment variables
+# For production deployment, add secrets using the Cloudflare dashboard or:
+# wrangler secret put OPENAI_API_KEY
+# wrangler secret put OPENAI_BASE_URL
+# wrangler secret put OPENROUTER_MODEL_ID
