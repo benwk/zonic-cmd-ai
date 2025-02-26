@@ -159,6 +159,7 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+.dev.vars
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -190,6 +191,9 @@ dist
 
 # Serverless directories
 .serverless/
+
+# Cloudflare Workers
+.wrangler/
 
 # FuseBox cache
 .fusebox/
